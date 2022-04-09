@@ -1,0 +1,46 @@
+header{
+    background: url("https://cdn.discordapp.com/attachments/731872496101359637/962099268930392095/unknown.png");
+    padding: 10%;
+    size: 200%;
+}
+#logo{
+    width: 28%;
+}
+.flex{
+    display: flex;
+}
+.horizontal{
+    flex-direction: row;
+}
+nav{
+   align-self: center; 
+}
+.menu li{
+    display: block;
+    margin: 0 10px;
+}
+.menu li a{
+    padding: 16px;
+    border: 2px solid greenyellow;
+    border-radius: 20px;
+    text-decoration: none;
+    color: greenyellow;
+    background-color: black;
+}
+.menu li a:hover{
+    background-color: greenyellow;
+    border-color: greenyellow;
+    color: black;
+}
+.table{
+    border: 10px black;
+    text-align: center;
+    margin-top: 2%;
+}
+.table td{
+    border: 20px black;
+    background-color: white;
+}
+.table img{
+    width: 50%;
+}
